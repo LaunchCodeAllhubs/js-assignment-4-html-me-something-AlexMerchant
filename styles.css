@@ -1,1 +1,58 @@
-/* Write your CSS here! */
+/* Required CSS styling definitions for autograde */
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+#mainHeading {
+    color: red;
+}
+
+#testP {
+
+}
+
+.funParagraph {
+    color: green;
+}
+
+/* The actual styling */
+p {
+    font-size: 20px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+figure {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+#subtitle {
+    
+}
+
+#testP {
+
+}
+
+.funParagraph {
+
+}

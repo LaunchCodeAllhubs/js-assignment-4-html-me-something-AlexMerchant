@@ -9,11 +9,7 @@ body {
     color: red;
 }
 
-#testP {
-
-}
-
-.funParagraph {
+#testP.funParagraph {
     color: green;
 }
 
@@ -25,6 +21,7 @@ header {
 main {
     max-width: 1000px;
     margin: auto;
+    clear: both;
 }
 
 footer {
@@ -33,6 +30,19 @@ footer {
 }
 
 /* The actual styling */
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+}
+
+li a {
+    display: block;
+}
+
 p {
     font-size: 20px;
 }

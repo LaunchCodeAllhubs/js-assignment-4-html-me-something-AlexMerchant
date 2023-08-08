@@ -1,1 +1,117 @@
-/* Write your CSS here! */
+/* START --- Required CSS styling definitions for autograde */
+body {
+    display: block;
+    margin: 8px;
+}
+
+#mainHeading {
+    color: red;
+}
+
+#testP.funParagraph {
+    color: green;
+}
+/* END --- Required CSS styling definitions for autograde */
+
+header {
+    max-width: 1000px;
+    margin: auto;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    clear: both;
+}
+
+article {
+    display: block;
+    margin-bottom: 100px;;
+}
+
+footer {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.2em;
+    margin-bottom: 16px;
+}
+
+h2#subtitle {
+    font-size: 1.85em;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+figure img {
+    display: block;
+    max-width: 100%;
+    margin: auto auto 15px auto;
+    border-radius: 20px;
+}
+
+figure {
+    width: 100%;
+    margin: 35px auto;
+    padding: 16px;
+    background-color: lightgray;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 8px rgb(91, 91, 91))
+}
+
+figcaption {
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+table, th, td {
+    border-width: 2px;
+    border-collapse: collapse;
+    border-style: solid;
+    border-color: black;
+    padding: 3px 8px;
+}
+
+th.align-left, td.align-left {
+    text-align: left;
+}
+
+td {
+    text-align: center;
+    padding: 3px 8px;
+}
+
+
+article ul {
+    padding: 15px auto;
+}
+
+article ul li {
+    list-style-type: square;
+    font-size: 18px;
+    margin-top: 15px;
+}
